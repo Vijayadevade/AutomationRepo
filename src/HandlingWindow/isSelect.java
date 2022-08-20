@@ -14,7 +14,7 @@ public class isSelect {
         driver.get("https://courses.letskodeit.com/practice");
         driver.manage().window().maximize();
 
-        WebElement bmwradio = driver.findElement(By.id("bmwradio"));
+        WebElement bmwradio = driver.findElement(By.id(""));
         bmwradio.click();
 
         System.out.println(bmwradio.isSelected());
