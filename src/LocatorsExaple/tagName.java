@@ -15,7 +15,7 @@ public class tagName {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vijaya\\Downloads\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-        List<WebElement> elements = driver.findElements(By.tagName("div"));
+        List<WebElement> elements = driver.findElements(By.tagName(""));
         for (WebElement e : elements) {
             System.out.println(e);
         }
