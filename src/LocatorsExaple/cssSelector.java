@@ -16,7 +16,7 @@ public class cssSelector {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vijaya\\Downloads\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-        driver.findElement(By.cssSelector("input[id = 'login1']")).sendKeys("vijaya2010devade@gmail.com");
+        driver.findElement(By.cssSelector("input[id = 'login1']")).sendKeys("vijaya2010devade@gmail");
         Thread.sleep(3000);
         driver.close();
 
