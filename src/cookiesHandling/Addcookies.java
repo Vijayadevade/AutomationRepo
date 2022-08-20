@@ -16,7 +16,7 @@ public class Addcookies {
         driver.get("http://www.flipkart.com");
         driver.manage().window().maximize();
 
-        Cookie cookie = new Cookie("Institute","Digital Partner");
+        Cookie cookie = new Cookie("Institute","test 3");
         driver.manage().addCookie(cookie);
 
         Set<Cookie> cookies = driver.manage().getCookies();
